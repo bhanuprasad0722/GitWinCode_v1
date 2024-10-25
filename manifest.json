@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "GitWinCode Cheat Sheet",
+    "version": "1.0",
+    "description": "Cheat sheets for github, visualstudiocode, windows.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "gitwin_icon128.png"
+    },
+    "permissions": [],
+    "icons": {
+    "128": "gitwin_icon128.png"
+  },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
